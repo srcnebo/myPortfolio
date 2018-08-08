@@ -1,0 +1,106 @@
+header {
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    border: 1px solid;
+    justify-content: space-around;
+    color: #4e4e4e;
+    font-family: 'Fjalla One', sans-serif;  
+}
+
+.photo{
+    flex: 0 1 20%;
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    border: inherit;
+    border-color: rgb(199, 199, 199);
+}
+
+.namespace{
+    flex: 0 1 40%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.address{
+    flex: 0 1 20%;
+    text-align: center;
+}
+
+body{
+    font-family: 'Fjalla One', sans-serif;
+    color: #4e4e4e;
+  
+}
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 28px;
+    line-height: 10px;
+}
+
+header>nav {
+    flex: 0 1 100%;
+    border: inherit;
+    background-color: #3f4044;
+}
+
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>ul>li{
+    flex: 0 1 12%;
+    text-align: center;
+}
+
+nav>ul>li>a{
+    color: rgb(238, 238, 238);
+}
+
+.container {
+    width: 970px;
+    margin: auto;
+}
+
+section{
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    padding: 50px 0px 0px 0px; 
+}
+
+
+footer{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    background: #3f4044;
+}
+footer>div{
+    text-align: center;
+    line-height: 1px;
+    color: rgb(238, 238, 238);
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    order: -1;
+    margin: 30px 0px 0px 0px;
+}
+.slinks{
+    flex-basis: 10%;
+    color: rgb(238, 238, 238);
+}
